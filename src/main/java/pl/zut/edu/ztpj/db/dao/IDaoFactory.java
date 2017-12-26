@@ -4,8 +4,8 @@ import pl.zut.edu.ztpj.db.dao.interfaces.IDaoDirector;
 import pl.zut.edu.ztpj.db.dao.interfaces.IDaoTrader;
 
 public interface IDaoFactory {
-    
-    public IDaoDirector getDaoDirector();
-    
-    public IDaoTrader getDaoTrader();
+	
+	public IDaoDirector getDaoDirector();
+	
+	public IDaoTrader getDaoTrader();
 }
